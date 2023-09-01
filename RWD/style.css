@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+body{
+
+    background-color: #640015;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+main{
+    width: 70vw;
+    background-color: white;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: .8rem;
+}
+
+header, footer{
+    height: 20vmax;
+    background-color: #150064;
+    display: grid;
+    align-items: end;
+}
+header{
+    box-shadow: inset 0px -2rem 0px #525252;
+}
+
+nav{
+    display: grid;
+    width: 70vw;
+    height: 35%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav > a {
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .4rem;
+}
+
+#logo{
+    height: 65%;
+    text-align: center;
+}
+
+
+@media (max-width:1024px){
+    h3, p{
+        font-size: 2rem;
+    }
+}
+
